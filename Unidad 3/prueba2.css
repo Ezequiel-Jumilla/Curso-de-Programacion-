@@ -1,0 +1,66 @@
+/*Nombre y Foto*/
+h1{
+    color: indigo;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+img{
+    filter: grayscale(44%) sepia(42%) brightness(103%) hue-rotate(5deg) saturate(115%) opacity(94%) contrast(96%);
+    margin-left: 500px;
+}
+
+/*Subtitulos y lista hasta la primera p*/
+h2{
+    color: darkmagenta;
+    text-transform: uppercase;
+}
+h3{
+    color: darkmagenta;
+    text-transform: uppercase;
+}
+h4{
+    color: darkmagenta;
+    text-transform: uppercase;
+}
+h5{
+      color: darkmagenta;
+    text-transform: uppercase;
+}
+h6{
+    color: rgb(117, 0, 117);
+    text-transform: uppercase;
+}
+ol{
+    color: maroon; 
+    font-style: inherit;
+}
+
+ul{
+    color: maroon;
+    font-style: inherit;
+}
+
+/*parrafos y etiqueta formulario*/
+
+.azul{
+    color: blue;
+}
+
+#amarillo{
+    color: gold;
+}
+
+#formulario{
+    color: darkmagenta;
+}
+
+a{
+    background: #c300aa;
+background: linear-gradient(358deg,#c300aa 30%, #8600ff 98%);
+background: -webkit-linear-gradient(358deg,#c300aa 30%, #8600ff 98%);
+background: -moz-linear-gradient(358deg,#c300aa 30%, #8600ff 98%);
+color: white;
+font-style: unset;
+text-transform: uppercase;
+}
