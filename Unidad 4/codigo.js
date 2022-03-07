@@ -13,17 +13,17 @@ num4=parseInt(100000);
 
     if (metros<num1){
     alert("El medio de transporte indicado es a pie");
-}else{
-    if (metros>num1 && metros<num2)
+}else if (metros>num1 && metros<num2) {
     alert("El medio de transporte indicado es la bicicleta");
     }
-    if (metros>num2 && metros<num3)
+ else if (metros>num2 && metros<num3) {
     alert("El medio de transporte indicado es el colectivo");
-else{
-    if (metros>num3 && metros<num4)
-    alert("El medio de transporte indicado es el auto")
-    if (metros>num4)
-    alert("El medio de transporte indicado es el avion")
+    }
+else if (metros>num3 && metros<num4) {
+    alert("El medio de transporte indicado es el auto");
+}
+else if (metros>num4) {
+    alert("El medio de transporte indicado es el avion");
 }
 
 // HASTA ACA LA PRIMER TAREA DE LA UNIDAD 4 
