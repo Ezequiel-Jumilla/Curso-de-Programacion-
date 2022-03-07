@@ -26,4 +26,14 @@ else{
     alert("El medio de transporte indicado es el avion")
 }
 
-// HASTA ACA LA PRIMER TAREA DE LA UNIDAD 4
+// HASTA ACA LA PRIMER TAREA DE LA UNIDAD 4 
+
+var numeros = [89, 952, 22, 7, 471, 137];
+var mayor = 0;
+    for (var i = 0; i < numeros.length; i++) {
+        if (numeros [i] > mayor) {
+            mayor = numeros [i]
+        }
+    }
+    console.log( "el mayor de " + numeros + " es " + mayor);
+    
