@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea1</title>
+</head>
+<body>
+    <div class="cuadrados">
+            <div class="contenedor color verde" onclick="cambioFondo('green')"></div>
+            <div class="contenedor color violeta" onclick="cambioFondo('purple')"></div>
+            <div class="contenedor color amarillo" onclick="cambioFondo('yellow')"></div>
+    </div>
+
+<style>
+    .cuadrados {
+        display: flex;
+    }
+    .contenedor{
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+    }
+    .verde{
+        background-color: green;
+    }
+    .violeta{
+        background-color: purple;
+    }
+    .amarillo{
+        background-color: yellow;
+    }
+</style>
+<script>
+    function cambioFondo(color) {
+        document.querySelector ('body').style.background = color
+    }
+</script>
+    
+</body>
+</html>
