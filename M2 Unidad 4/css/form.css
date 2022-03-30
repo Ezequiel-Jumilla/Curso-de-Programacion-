@@ -17,9 +17,9 @@ body{
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
 }
-#chk{
+/* #chk{
 	display: none;
-}
+} */
 .signup{
 	position: relative;
 	width:100%;
@@ -67,7 +67,7 @@ button{
 button:hover{
 	background: #6d44b8;
 }
-.login{
+/* .login{
 	height: 460px;
 	background: #eee;
 	border-radius: 60% / 10%;
@@ -87,4 +87,4 @@ button:hover{
 }
 #chk:checked ~ .signup label{
 	transform: scale(.6);
-}
+} */
