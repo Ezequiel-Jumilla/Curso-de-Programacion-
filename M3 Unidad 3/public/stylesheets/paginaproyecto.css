@@ -1,7 +1,7 @@
 /* font-family: 'Bebas Neue', cursive; ---ESA ES LA TIPOGRAFIA PRINCIPAL*/
 /* #7001FF ----COLOR PRINCIPAL KOI */
 .hero {
-  background: url(../img/header1.png) no-repeat;
+  background: url(/images/header1.png) no-repeat;
   background-size: cover;
   height: 100vh;
   min-height: 600px;
@@ -102,7 +102,7 @@ footer {
 }
 
 body {
-  background: url(../img/Background.jpeg);
+  background: url(/images/Background.jpeg);
 }
 #tituloseccionlol {
   color: white;
@@ -195,4 +195,11 @@ box-shadow: 0 12px 16px #b400ff;
 }
 #buttonsingin.hover{
   text-decoration: none;
+}
+
+/*
+Smooth scroll
+*/
+html {
+  scroll-behavior: smooth;
 }
