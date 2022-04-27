@@ -110,6 +110,9 @@ body {
 /* Modificacion cards */
 #cartanosotros {
   text-align: center;
+  padding-right: 8rem;
+  height: 70vh;
+  align-content: center;
 }
 
 .card-body{
@@ -137,7 +140,7 @@ h5{
 .card-img, .card-img-bottom, .card-img-top {
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 332px;
+    width: 306px;
     height: 200px;
 }
 
@@ -178,10 +181,14 @@ box-shadow: 0 12px 16px #b400ff;
   color: white;
   font-family: 'Nanum Myeongjo', serif;
   text-align:start;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
-#historia{
+.historiacompleta{
   height: 75vh;
+}
+#historiatitulo{
+  text-align: center;
+  padding-top: 5rem;
 }
 
 /*formulario registro*/
@@ -203,3 +210,21 @@ Smooth scroll
 html {
   scroll-behavior: smooth;
 }
+
+form{
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+label{
+  color: #dadada;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+}
+.form-control{
+border-color:#b400ff;
+background-color:#310058;
+}
+
+
