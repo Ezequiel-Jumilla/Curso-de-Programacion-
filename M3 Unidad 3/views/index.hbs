@@ -209,22 +209,27 @@
   </div>
   <!-- TERMINA CARD -->
   <!-- INICIO FORMULARIO -->
-  <form>
+  <form action="/" method="post">
     <div class="form-group">
       <h2 id="titulogeneralcontacto">CONTÁCTANOS</h2>
       <label for="mail">Dirección Email</label>
-      <input type="email" class="form-control" id="mail" placeholder="Name@example.com">
+      <input type="email" class="form-control" id="mail" placeholder="Name@example.com" name="email">
     </div>
     <div class="form-group">
       <label for="genero">Nombre y Apellido</label>
-        <input type="text" class="form-control" placeholder="Nombre">
+        <input type="text" class="form-control" placeholder="Nombre" name="nombre">
     </div>
     <div class="form-group">
       <label for="consulta">Envíanos tu consulta</label>
-      <textarea class="form-control" id="consulta" rows="2"></textarea>
+      <textarea class="form-control" id="consulta" rows="2" name="consulta"></textarea>
     </div>
     <button type="submit" class="btn btn-violeta">Enviar Consulta</button>
   </form>
+  {{#if message}}
+    <p id="avisoconsultaenviada">{{message}}</p>
+  {{/if}}
+
+
 </div>
 <!-- FIN FORMULARIO -->
 <!-- inicio modal -->

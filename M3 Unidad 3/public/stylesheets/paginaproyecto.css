@@ -211,6 +211,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* FORMULARIO */
 form{
   text-align: center;
   padding-top: 2rem;
@@ -236,3 +237,8 @@ background-color:#18002c;
   color: white;
 }
 
+/* ----------------- */
+#avisoconsultaenviada{
+  color: #00FF00;
+  text-align: center;
+}
