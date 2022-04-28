@@ -220,11 +220,19 @@ form{
 label{
   color: #dadada;
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 23px;
 }
 .form-control{
 border-color:#b400ff;
-background-color:#310058;
+background-color:#18002c;
 }
-
+.btn-violeta{
+  background-color:#18002c;
+  border-color: #b400ff;
+  color: white;
+}
+.btn-violeta:hover{
+  background-color:#45037a;
+  color: white;
+}
 
