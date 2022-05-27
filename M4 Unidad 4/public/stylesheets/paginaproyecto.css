@@ -1,0 +1,245 @@
+/* font-family: 'Bebas Neue', cursive; ---ESA ES LA TIPOGRAFIA PRINCIPAL*/
+/* #7001FF ----COLOR PRINCIPAL KOI */
+.hero {
+  background: url(/images/header1.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 600px;
+  color: white;
+}
+
+.titulo {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#textoheader {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 19px;
+}
+
+.lista-novedades {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-top: 3rem;
+}
+.lista-novedades li {
+  margin: 4px 0;
+}
+.lista-novedades li a {
+  background: rgba(0, 0, 0, 0.91);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.91) 30%, #34005f 70%);
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.91) 30%,
+    #34005f 70%
+  );
+  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.91) 30%, #34005f 70%);
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  display: block;
+}
+.lista-novedades li a:hover {
+  color: #7400ff;
+  background-color: #dadada;
+}
+.lista-novedades li a img {
+  width: 120px;
+  height: 50px;
+  filter: grayscale();
+  transition: all 0.2s ease-in-out;
+  margin-right: 1rem;
+  opacity: 0.7;
+}
+.lista-novedades li a:hover img {
+  filter: none;
+  margin-right: 1.4rem;
+  opacity: 1;
+}
+.lista-novedades :hover a img {
+  border: 2px outset #7400ff;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  text-shadow: -2px 5px 5px rgba(186, 62, 255, 0.71);
+  color: white;
+}
+
+footer {
+  font-family: "Red Hat Mono", monospace;
+  color: white;
+  background-color: black;
+}
+
+.testimonios {
+  padding-bottom: 4rem !important;
+}
+.testimonio {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+.modal-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  font-weight: 300px;
+}
+
+.nav-item {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  color: white;
+  padding-top: .4rem;
+}
+
+body {
+  background: url(/images/Background.jpeg);
+}
+#tituloseccionlol {
+  color: white;
+}
+/* Modificacion cards */
+#cartanosotros {
+  text-align: center;
+  padding-right: 8rem;
+  height: 70vh;
+  align-content: center;
+}
+
+.card-body{
+    background-color: black;
+    color: white;
+    padding: 1.1rem;
+}
+
+h5{
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+}
+
+.card-text{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card{
+    border: 1px solid rgba(186, 62, 255, 0.71);
+    
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 306px;
+    height: 200px;
+}
+
+.card:hover{
+  transform: translateY(-15px);
+box-shadow: 0 12px 16px #b400ff;
+}
+#titulogeneralcarta{
+  margin-bottom: 3rem;
+}
+/* Logo Twitter */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  align-content: center;
+}
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+.fa-twitter {
+  align-content: center;
+  color: white;
+}
+
+/* LOGO INSTAGRAM */
+
+.fa-instagram {
+  align-content: center;
+  color: white;
+}
+
+/* Historia */
+#textohistoria{
+  color: white;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align:start;
+  padding-top: 1.5rem;
+}
+.historiacompleta{
+  height: 75vh;
+}
+#historiatitulo{
+  text-align: center;
+  padding-top: 5rem;
+}
+
+/*formulario registro*/
+#singin{
+  padding-left: 28cm;
+}
+#buttonsingin{
+  text-decoration: none;
+  color: white;
+  
+}
+#buttonsingin.hover{
+  text-decoration: none;
+}
+
+/*
+Smooth scroll
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* FORMULARIO */
+form{
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+label{
+  color: #dadada;
+  font-family: "Bebas Neue", cursive;
+  font-size: 23px;
+}
+.form-control{
+border-color:#b400ff;
+background-color:#18002c;
+}
+.btn-violeta{
+  background-color:#18002c;
+  border-color: #b400ff;
+  color: white;
+}
+.btn-violeta:hover{
+  background-color:#45037a;
+  color: white;
+}
+
+/* ----------------- */
+#avisoconsultaenviada{
+  color: #ffffff;
+  text-align: center;
+}
+
