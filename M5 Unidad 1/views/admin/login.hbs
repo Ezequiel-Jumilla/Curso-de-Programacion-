@@ -1,0 +1,11 @@
+<div class="main">  	
+				<form action="/admin/login" method="post">
+					<label for="chk" aria-hidden="true">LOGIN</label>
+					<input type="text" name="usuario" placeholder="Usuario" required="">
+					<input type="password" name="password" placeholder="Contraseña" required="">
+					<button>Login</button>
+				</form>
+				{{#if error}}
+				<p>Usuario y/o contraseña incorrectos</p>
+				{{/if}}
+	</div>
