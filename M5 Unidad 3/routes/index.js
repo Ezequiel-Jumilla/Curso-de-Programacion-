@@ -12,7 +12,7 @@ router.get('/', async function (req, res, next) {
 
   var novedades = await novedadesModel.getnovedades();
 
-  novedades = novedades.splice(0, 5);
+  novedades = novedades.splice(0, 6);
 
   novedades = novedades.map(novedad => {
     if (novedad.img_id) {
@@ -27,7 +27,7 @@ router.get('/', async function (req, res, next) {
     } else {
         return {
             ...novedad,
-            imagen: '/images/sinimagen.jpg'
+            imagen: '/images/sinimagen2.jpg',
         }        
     }
 });
